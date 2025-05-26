@@ -10,7 +10,7 @@ int main(){
 }
 
 
-/* ASCII values */
+/* ASCII values A - 65, a - 97*/
 #include <stdio.h>
 
 int main(){
