@@ -21,3 +21,14 @@ int main(){
     printf("A - %c\nB - %c\nC - %c", a, b, c);
     return 0;
 }
+
+
+#include <stdio.h>
+
+int main(){
+    char mychar = 'Hello';
+    
+    printf("%c", mychar);   // only stores last character
+    printf("%s", mychar);   // stores all characters
+    return 0;
+}
