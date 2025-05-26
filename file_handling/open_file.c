@@ -15,7 +15,7 @@ int main(){                                               /* entry of the progra
         perror("open error");                             /* prints the error reason to stderr */
         return 1;                                         /* returns 1 to indicate error */
     }
-    write(fd, "Hello, file!\n", 13);                      /* writes 13 bytes */
+    write(fd, "Hello, file!\n", 13);                      /* writes 13 bytes to the file */
     close(fd);                                            /* always a good practise to free the file descripter */
     return 0;
 }
