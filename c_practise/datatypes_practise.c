@@ -8,3 +8,16 @@ int main(){
     printf("%d", area);
     return 0;
 }
+
+
+/* ASCII values */
+#include <stdio.h>
+
+int main(){
+    int a = 65;
+    int b = 66;
+    int c = 67;
+
+    printf("A - %c\nB - %c\nC - %c", a, b, c);
+    return 0;
+}
