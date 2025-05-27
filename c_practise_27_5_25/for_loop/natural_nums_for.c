@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 int main(){
-    printf("10 natural numbers are: ");
+    printf("10 natural numbers are: \n");
     for (int i = 0; i <= 10; i++){
         printf("%d\n", i);
     }
