@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int calculate_sum(){
+void calculate_sum(){
     int x = 5;
     int y = 10;
     int s = x + y;
