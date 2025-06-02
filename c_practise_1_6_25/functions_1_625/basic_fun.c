@@ -30,6 +30,7 @@ void my_fun(){
 
 int main(){
     my_fun();
+    my_fun();
 
     return 0;
 }
