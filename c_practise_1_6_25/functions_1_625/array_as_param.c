@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void array_param(int myArray[], int size){  // int* myArray
+void array_param(int myArray[], int size){    // int* myArray  ~  int myArray[]
     printf("address of pointer myArray - %zu\n", sizeof(myArray));
     printf("%zu\n", &myArray);
     printf("value in myArray - %zu\n", myArray);
