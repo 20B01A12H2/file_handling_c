@@ -22,6 +22,7 @@
 
 
 /* Hello world */
+// also a function can be called multiple times
 #include <stdio.h>
 
 void my_fun(){
