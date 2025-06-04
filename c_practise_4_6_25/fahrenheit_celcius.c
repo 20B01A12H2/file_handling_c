@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int fahrenheit_celcius(int fahrenheit){
+float fahrenheit_celcius(int fahrenheit){
     return (5.0 / 9.0) * (fahrenheit - 32.0);
 }
 
