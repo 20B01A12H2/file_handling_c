@@ -1,0 +1,4 @@
+C is a general-programming language, gives the ability to directly interact with underlying hardware.
+it is widely used for embedded systems, developing operating systems and applications.
+C is widely used to develop unix type operating systems.
+memory-usage
