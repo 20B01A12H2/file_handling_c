@@ -9,8 +9,9 @@ int main(){
 
     while (i <= cnt){
         printf("%d ", a);
+        c = a + b;
         a = b;
-        b = a + b;
+        b = c;
         i++;
     }
 
