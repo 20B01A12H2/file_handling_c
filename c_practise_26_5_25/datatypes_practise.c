@@ -26,10 +26,11 @@
 // #include <stdio.h>
 
 // int main(){
-//     char mychar = 'Hello';
-    
-//     printf("%c", mychar);   // only stores last character
-//     printf("%s", mychar);   // stores all characters
+//     char mychar1 = "Hello";
+//     char mychar2[5] = "Hello";
+
+//     printf("%c\n", mychar1);   // only stores last character
+//     printf("%s", mychar2);     // stores all characters
 //     return 0;
 // }
 
@@ -60,13 +61,14 @@
 // }
 
 // /* using ternary operator 
-// variable = (condition) ? expressionTrue : expressionFalse; */
+// variable = (condition) ? expressionTrue : expressionFalse; 
+// */
 
 // #include <stdio.h>
 
 // int main(){
 //     int time = 18;
-//     (time < 20) ? printf("Good day.") : printf("Good Evening.");
+//     (time < 16) ? printf("Good day.") : printf("Good Evening.");
 //     return 0;
 // }
 
